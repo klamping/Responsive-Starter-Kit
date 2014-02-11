@@ -1,0 +1,104 @@
+/* -----------------------------
+
+   Responsive Starter Kit
+   Forms (forms.css)
+
+-------------------------------- */
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group .info {
+    display: block;
+    font-size: .75em;
+    margin-left: 150px;
+}
+
+input.error {
+    background-color: #ffeded;
+    border: 1px solid red;
+}
+
+label {
+    display: block;
+}
+
+label.inline {
+    display: inline;
+}
+
+label.error {
+    color: red;
+    font-size: .75em;
+    font-weight: normal;
+    margin-top: 0;
+    margin-left: 150px;
+}
+
+.validator {
+    color: red;
+}
+
+input, select, textarea {
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #999999;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+input:focus {
+    outline: thin dotted;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.text-narrow {
+    width: 75px;
+}
+
+.text-wide {
+    width: 280px;
+}
+
+textarea {
+    border: 1px solid #999;
+    width: 500px;
+    height: 15em;
+    color: #222;
+    overflow: auto;
+    border: 1px solid #666;
+    padding: 5px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+textarea:focus {
+    outline: thin dotted;
+}
+
+.textarea-short {
+    height: 8em;
+}
+
+.required {
+    color: red;
+}

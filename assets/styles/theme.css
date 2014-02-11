@@ -1,0 +1,271 @@
+/* -----------------------------
+
+   Responsive Starter Kit
+   Theme (theme.css)
+
+   Contents:
+   + Header
+   + Navigation
+   + Page Content
+   + Main
+   + Sidebar
+   + Footer
+
+-------------------------------- */
+
+/* Header
+--------------------------- */
+
+.site-header {
+    background: #ddd;
+    color: #fff;
+    font-size: 0.875em;
+    padding: 10px 0;
+    position: relative;
+}
+
+.site-header .site-branding {
+    text-align: center;
+}
+
+@media all and (min-width: 43.75em) {
+    .site-header .site-branding {
+        float: left;
+    }
+}
+
+.site-header .site-branding a {
+    background: url("../img/logo.gif") no-repeat 0 0;
+    width: 150px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    text-indent: -999em;
+}
+
+
+/* Navigation
+----------------------------- */
+
+/* Primary Navigation */
+
+.site-header .nav-primary {
+    font-weight: bold;
+    background-color: transparent;
+    text-align: center;
+    margin: 10px 0;
+}
+
+@media all and (min-width: 43.75em) {
+    .site-header .nav-primary {
+        float: right;
+    }
+}
+
+.site-header .nav-primary a {
+    color: #333;
+    padding: 7px;
+    font-size: 0.9em;
+    display: block;
+    text-decoration: none;
+    border: 0;
+}
+
+.site-header .nav-primary a:hover, .site-header .nav-primary a:focus {
+    background-color: #bbb;
+    color: #222;
+}
+
+.site-header .nav-primary li {
+    margin-left: 0;
+    border: 0;
+    background-image: none;
+    display: inline-block;
+}
+
+.site-header .nav-primary li.current a {
+    background-color: #777;
+    color: #fff;
+}
+
+/* Breadcrumb Navigation */
+
+.page-content {
+    text-align: left;
+    padding: 1.5em 0;
+}
+
+.page-content .nav-breadcrumb {
+    font-size: 0.75em;
+    line-height: 1.4;
+    margin: 0 0 2em;
+}
+
+.page-content .nav-breadcrumb a {
+    color: #444;
+}
+
+.page-content .nav-breadcrumb b {
+    font-size: 1.2em;
+    margin: 0 0.3em;
+}
+
+.back-to-top {
+    margin: 2.5em 0 1.5em;
+    display: block;
+}
+
+.back-to-top a {
+    background-color: #ccc;
+    color: #222;
+    font-size: 0.75em;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+/* Main
+------------------------- */
+
+main {
+    margin: 0 0 1.5em;
+    font-size: 0.9375em;
+    line-height: 1.3;
+}
+
+main .article-meta {
+    font-size: 0.875em;
+    color: #777;
+}
+
+main ul {
+    padding-left: 35px;
+    list-style: disc;
+}
+
+main ul ul {
+    margin-bottom: 0;
+    list-style: square;
+}
+
+main ol {
+    padding-left: 35px;
+}
+
+main dt {
+    font-weight: bold;
+}
+
+main dd {
+    margin-bottom: 0.75em;
+    padding-left: 0.75em;
+}
+
+main .intro {
+    font-size: 1.2em;
+    line-height: 1.35;
+}
+
+main blockquote {
+    border-left: 5px solid #bbb;
+    font-style: italic;
+    padding: 0 60px 0 30px;
+}
+
+main blockquote p {
+    margin-bottom: 0.75em;
+}
+
+
+/* Sidebar
+------------------------- */
+
+.sidebar {
+    font-size: 0.9375em;
+    line-height: 1.2;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+
+.sidebar h3, .sidebar h4 {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0 0 0.5em;
+    color: #222;
+}
+
+
+/* Widgets */
+
+.widget {
+    margin: 0 0 1.5em;
+}
+
+.widget.panel h4 {
+    background-color: #ccc;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: -10px -10px 10px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.widget p, .widget ul, .widget ol, .widget dl {
+    margin-bottom: 1em;
+}
+
+.widget.panel {
+    background-color: #f1f1f1;
+    margin-bottom: 1.5em;
+    padding: 10px 10px 5px;
+}
+
+
+/* Footer
+------------------------- */
+
+.site-footer {
+    clear: both;
+    color: #86888a;
+    font-size: 0.8125em;
+    border-top: 2px solid #ebebeb;
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.site-footer ul {
+    margin: 0 0 1em;
+    text-align: center;
+    display: inline-block;
+}
+
+.site-footer ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.site-footer ul li:first-child {
+    padding-left: 0;
+}
+
+.site-footer a {
+    color: #5a5a5a;
+}
+
+.site-footer a:hover, .site-footer a:focus {
+    color: #222;
+}
+
+@media all and (min-width: 43.75em) {
+    
+    .site-footer .site-copyright {
+        float: left;
+    }
+    
+    .site-footer .nav-utility {
+        float: right;
+    }
+}

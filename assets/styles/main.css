@@ -1,0 +1,11 @@
+/* -----------------------------
+
+   Responsive Starter Kit
+   Global (global.css)
+
+-------------------------------- */
+
+@import url("reset.css");
+@import url("common.css");
+@import url("forms.css");
+@import url("print.css");
