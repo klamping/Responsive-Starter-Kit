@@ -278,8 +278,6 @@ input[type=submit] {
     .btn-cancel {
         text-align: left;
         display: inline-block;
-        padding: 0;
-        border: 0;
     }
 }
 
