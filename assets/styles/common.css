@@ -3,7 +3,11 @@
    Responsive Starter Kit
    Common (common.css)
 
-   Contents:
+   Note: All visual styles can
+   be overwritten, deleted, or
+   moved to theme as needed.
+
+   Table of Contents:
    -----------------------------
    + Basics
    + Colored Buttons
@@ -15,7 +19,7 @@
 
 
 /* Basics
------------------------ */
+-------------------------------- */
 
 body {
       font: 1em/1.4 Helvetica, Arial, sans-serif;
@@ -71,6 +75,7 @@ input[type=checkbox] {
 }
 
 /* HTML5 placeholder attribute (don't combine into a group selector) */
+
 ::-webkit-input-placeholder {
     color: #aaa; /* WebKit browsers */
 }
@@ -87,7 +92,10 @@ input[type=checkbox] {
     color: #aaa; /* Internet Explorer 10+ */
 }
 
-/* IE 10 Snap Mode Viewport Setting - http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/ */
+/* IE 10 Snap Mode Viewport Setting
+   http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
+*/
+
 @media screen and (max-width: 400px) {
     @-ms-viewport {
         width: device-width;
@@ -205,7 +213,7 @@ tr:nth-child(even) td {
 
 
 /* Colored Buttons
------------------------------- */
+-------------------------------- */
 
 .btn {
     position: relative;
@@ -320,9 +328,34 @@ tr:nth-child(even) td {
     width: 100%;
 }
 
+input[type=submit] {
+    padding-top: 0;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding: 11px 20px;
+    border: 1px solid #bbb;
+    color: #777;
+    text-decoration: none;
+}
+
+@media all and (min-width: 43.75em) {
+    .btn-cancel {
+        text-align: left;
+        display: inline-block;
+        padding: 0;
+        border: 0;
+    }
+}
+
 
 /* Non-semantic Helpers
-------------------------------- */
+-------------------------------- */
 
 .uppercase {
     text-transform: uppercase;
@@ -393,7 +426,10 @@ tr:nth-child(even) td {
     clear: both;
 }
 
-/* micro clearfix: http://nicolasgallagher.com/micro-clearfix-hack/ */
+/* micro clearfix
+   http://nicolasgallagher.com/micro-clearfix-hack/
+*/
+
 .clearfix:after, .cf:after, .grid:after, .box:after {
     content: "";
     display: table;
@@ -401,6 +437,7 @@ tr:nth-child(even) td {
 }
 
 /* accessibility, print, image replacement */
+
 .visually-hidden, .screen-reader-text, .wai, .ir {
     position: absolute;
     left: -999em;
@@ -414,7 +451,7 @@ tr:nth-child(even) td {
 
 
 /* Simple Grids
-------------------------------------- */
+-------------------------------- */
 
 @media all and (min-width: 43.75em) {
     
@@ -480,9 +517,12 @@ tr:nth-child(even) td {
 
 
 /* Plugin Themes (overrides)
----------------------------------- */
+-------------------------------- */
 
-/* Fancybox Responsive Modal - http://fancyapps.com/fancybox/ */
+/* Fancybox Responsive Modal
+   http://fancyapps.com/fancybox/
+*/
+
 .fancybox-skin {
     padding: 40px 40px 25px !important;
 }
@@ -503,7 +543,10 @@ tr:nth-child(even) td {
     left: -18px;
 }
 
-/* FitVids Responsive Videos - https://github.com/davatron5000/FitVids.js */
+/* FitVids Responsive Videos
+   https://github.com/davatron5000/FitVids.js
+*/
+
 .flexible-video {
     margin-bottom: 20px;
 }
