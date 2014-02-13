@@ -5,4 +5,4 @@
 
 --------------------------------- */
 
-// Place section- or page-specific styles here
+// Place section- or page-specific styles here.
