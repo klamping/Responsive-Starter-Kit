@@ -227,67 +227,7 @@ tr:nth-child(even) td {
     text-align: center;
 }
 
-/* Red */
-.btn-red {
-    background: red;
-    color: #fff;
-}
-
-.btn-red:hover, .btn-red:focus {
-    color: #fff;
-}
-
-/* Orange */
-.btn-orange {
-    background: orange;
-    color: #fff;
-}
-
-.btn-orange:hover, .btn-orange:focus {
-    color: #fff;
-}
-
-/* Yellow */
-.btn-yellow {
-    background: yellow;
-    color: #333;
-}
-
-.btn-yellow:hover, .btn-yellow:focus {
-    color: #333;
-}
-
-/* Green */
-.btn-green {
-    background: green;
-    color: #fff;
-}
-
-.btn-green:hover, .btn-green:focus {
-    color: #fff;
-}
-
-/* Blue */
-.btn-blue {
-    background: blue;
-    color: #fff;
-}
-
-.btn-blue:hover, .btn-blue:focus {
-    color: #fff;
-}
-
-/* Purple */
-.btn-purple {
-    background: purple;
-    color: #fff;
-}
-
-.btn-purple:hover, .btn-purple:focus {
-    color: #fff;
-}
-
-/* Medium Gray */
+/* Colors can be added like this. */
 .btn-gray {
     background: #bbb;
     color: #333;
@@ -295,16 +235,6 @@ tr:nth-child(even) td {
 
 .btn-gray:hover, .btn-gray:focus {
     color: #111;
-}
-
-/* Light Gray */
-.btn-light-gray {
-    background: #ddd;
-    color: #222;
-}
-
-.btn-light-gray:hover, .btn-light-gray:focus {
-    color: #222;
 }
 
 /* Disabled */
@@ -327,6 +257,7 @@ tr:nth-child(even) td {
     width: 100%;
 }
 
+/* Form Buttons (useful in sidebars and columns) */
 input[type=submit] {
     padding-top: 0;
     margin-right: 15px;
