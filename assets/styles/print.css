@@ -94,9 +94,8 @@
         margin-bottom: 5px;
     }
 
-    /* paint it black */
     blockquote, cite, p, main p, em, strong, a, ul, ol, li, dl, dt, dd {
-        color: #000 !important;
+        color: #000 !important; /* paint it black */
     }
 
     table {
@@ -131,7 +130,8 @@
         border-top: 1px solid #ccc;
     }
 
-    /* hide some stuff */
+    /* Hide Some Stuff */
+    
     nav, .flexible-video, .sidebar, .back-to-top {
         display: none;
     }

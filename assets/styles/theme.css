@@ -3,7 +3,8 @@
    Responsive Starter Kit
    Theme (theme.css)
 
-   Contents:
+   Table of Contents:
+   -----------------------------
    + Header
    + Navigation
    + Page Content
@@ -14,7 +15,7 @@
 -------------------------------- */
 
 /* Header
---------------------------- */
+-------------------------------- */
 
 .site-header {
     background: #ddd;
@@ -45,7 +46,7 @@
 
 
 /* Navigation
------------------------------ */
+-------------------------------- */
 
 /* Primary Navigation */
 
@@ -125,7 +126,7 @@
 
 
 /* Main
-------------------------- */
+-------------------------------- */
 
 main {
     margin: 0 0 1.5em;
@@ -178,7 +179,7 @@ main blockquote p {
 
 
 /* Sidebar
-------------------------- */
+-------------------------------- */
 
 .sidebar {
     font-size: 0.9375em;
@@ -223,7 +224,7 @@ main blockquote p {
 
 
 /* Footer
-------------------------- */
+-------------------------------- */
 
 .site-footer {
     clear: both;
