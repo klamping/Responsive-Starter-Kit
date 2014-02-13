@@ -13,7 +13,6 @@
    + Colored Buttons
    + Non-semantic Helpers
    + Simple Grids
-   + Plugin Themes (overrides)
 
 -------------------------------- */
 
@@ -513,40 +512,4 @@ input[type=submit] {
     .grid div:first-child {
         margin-left: 0 !important;
     }
-}
-
-
-/* Plugin Themes (overrides)
--------------------------------- */
-
-/* Fancybox Responsive Modal
-   http://fancyapps.com/fancybox/
-*/
-
-.fancybox-skin {
-    padding: 40px 40px 25px !important;
-}
-
-.fancybox-overlay {
-    text-align: left;
-}
-
-.fancybox-overlay h2 {
-    margin: 0 0 0.5em;
-}
-
-.fancybox-overlay p {
-    margin: 0 0 1em;
-}
-
-.fancybox-close {
-    left: -18px;
-}
-
-/* FitVids Responsive Videos
-   https://github.com/davatron5000/FitVids.js
-*/
-
-.flexible-video {
-    margin-bottom: 20px;
 }
