@@ -3,6 +3,11 @@
    Responsive Starter Kit
    Global (global.css)
 
+   Note: If not using LESS/Sass,
+   consider merging these files.
+   They're included here for
+   learning purposes.
+
 -------------------------------- */
 
 @import url("reset.css");
