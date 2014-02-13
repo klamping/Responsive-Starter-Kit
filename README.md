@@ -39,3 +39,12 @@ There's a basic *theme.css* file in the *assets/css* directory. Feel free to edi
 * Forms include LABELs and TITLEs on INPUT fields
 * Alt text for images, unless no content conveyed - http://a11yproject.com/posts/alt-text/
 * Never user "maximum-scale=1.0" in META VIEWPORT tag - http://a11yproject.com/posts/never-use-maximum-scale/
+
+## Recommended Add-ons ##
+
+* Zurb Responsive Tables (for data tables) - https://github.com/zurb/responsive-tables
+* Riloadr (images, including Retina and scroll position support) - https://github.com/tubalmartin/riloadr
+* FitVids (videos) - https://github.com/davatron5000/FitVids.js
+* fancyBox (modal dialogs) - https://github.com/fancyapps/fancyBox
+* WooThemes FlexSlider (content carousel) - https://github.com/woothemes/FlexSlider
+* Modernizr (feature detection) - https://github.com/Modernizr/Modernizr
