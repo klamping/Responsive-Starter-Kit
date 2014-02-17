@@ -79,6 +79,7 @@ input[type=radio], input[type=checkbox] {
     margin-right: 5px;
     vertical-align: top;
     line-height: 1;
+    border: 0;
 }
 
 .text-wide, .text-narrow, textarea {
