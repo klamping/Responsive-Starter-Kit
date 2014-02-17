@@ -17,8 +17,11 @@
     <!-- Resist the urge to include 'initial-scale=1, maximum-scale=1, or user-scalable=no' below. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Main Style Sheet -->
+    <!-- Common Style Sheets -->
+    <link rel="stylesheet" type="text/css" href="assets/styles/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/forms.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/print.css">
 
     <!-- Layout Style Sheet -->
     <link rel="stylesheet" type="text/css" href="assets/styles/layout-sidebar-left.css">
@@ -26,17 +29,22 @@
     <!-- Theme Style Sheet (rename as needed) -->
     <link rel="stylesheet" type="text/css" href="assets/styles/theme.css">
 
-    <!-- Media Query Support for Older Browsers -->
-    <script type="text/javascript" src="assets/scripts/respond.min.js"></script>
+    <!-- Use v1.9.1 if IE 6-8 support is needed. -->
+    <script type="text/javascript" src="assets/scripts/jquery-1.9.1.min.js"></script>
 
     <!--[if (lt IE 9) & (!IEMobile)]>
-        <script type="text/javascript" src="assets/scripts/selectivizr.js"></script>
+    <script type="text/javascript" src="assets/scripts/respond.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/selectivizr-min.js"></script>
     <![endif]-->
+	
+	<!--[if lt IE 9]>
+	<script src="assets/scripts/html5.js"></script>
+	<![endif]-->
 
     <link rel="apple-touch-icon" href="assets/img/ico/apple-icon-touch.png">
     <link rel="icon" href="assets/img/ico/favicon.png">
     <!--[if IE]>
-    	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="assets/img/ico/favicon.ico">
     <![endif]-->
     <meta name="msapplication-TileColor" content="#585858">
     <meta name="msapplication-TileImage" content="assets/img/ico/win8-tile-icon.png">
@@ -191,9 +199,6 @@
     </footer><!-- /.site-footer -->
 
 </div><!-- /.site-container -->
-
-<!-- Use v1.9.1 if IE 6-8 support is needed. -->
-<script type="text/javascript" src="assets/scripts/jquery-1.9.1.min.js"></script>
 
 <!-- iOS Orientation Change Fix - https://github.com/scottjehl/iOS-Orientationchange-Fix/blob/master/README.md -->
 <script type="text/javascript" src="assets/scripts/ios-orientationchange-fix.js"></script>
