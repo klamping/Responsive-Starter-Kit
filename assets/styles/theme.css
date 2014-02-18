@@ -223,6 +223,54 @@ main blockquote p {
 }
 
 
+/* Common
+-------------------------------- */
+
+.outline {
+    border: 1px solid #999;
+}
+
+.outline-pad {
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+.sidebar .outline-pad {
+    padding: 3px;
+}
+
+/* Buttons */
+
+/* Colors can be added like this. */
+.btn-gray {
+    background: #bbb;
+    color: #333;
+}
+
+.btn-gray:hover, .btn-gray:focus {
+    color: #111;
+}
+
+/* Disabled */
+.btn-disabled {
+    background-color: #eee;
+    color: #888;
+    padding: 11px 20px;
+    cursor: not-allowed;
+    -webkit-appearance: none;
+}
+
+.btn-disabled:hover, .btn-disabled:focus {
+    background-color: #eee;
+    color: #888;
+}
+
+.btn-cancel {
+    border: 1px solid #bbb;
+    color: #777;
+}
+
+
 /* Footer
 -------------------------------- */
 
@@ -269,4 +317,26 @@ main blockquote p {
     .site-footer .nav-utility {
         float: right;
     }
+}
+
+
+/* Breakpoints (if preferred)
+-------------------------------- */
+
+/* Base Styles */
+
+/* 480px / 16px = 30em */
+@media all and (min-width: 30em) {
+}
+
+/* 700px / 16px = 43.75em */
+@media all and (min-width: 48em) {
+}
+
+/* 900px / 16px = 56.25em */
+@media all and (min-width: 56.25em) {
+}
+
+/* 1100px / 16px = 68.75em */
+@media all and (min-width: 68.75em) {
 }

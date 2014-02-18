@@ -42,11 +42,11 @@ body {
 
 a {
     text-decoration: underline;
-    color: #005e81;
+    color: #005e81; /* default link color */
 }
 
 a:hover, a:focus {
-    color: #00394e;
+    color: #00394e; /* default link hover/focus color */
 }
 
 a:focus {
@@ -208,7 +208,7 @@ tr:nth-child(even) td {
 }
 
 
-/* Colored Buttons
+/* Buttons
 -------------------------------- */
 
 .btn {
@@ -222,30 +222,6 @@ tr:nth-child(even) td {
     font-size: 1.13em;
     font-weight: bold;
     text-align: center;
-}
-
-/* Colors can be added like this. */
-.btn-gray {
-    background: #bbb;
-    color: #333;
-}
-
-.btn-gray:hover, .btn-gray:focus {
-    color: #111;
-}
-
-/* Disabled */
-.btn-disabled {
-    background-color: #eee;
-    color: #888;
-    padding: 11px 20px;
-    cursor: not-allowed;
-    -webkit-appearance: none;
-}
-
-.btn-disabled:hover, .btn-disabled:focus {
-    background-color: #eee;
-    color: #888;
 }
 
 /* Full Width */
@@ -266,8 +242,6 @@ input[type=submit] {
     text-align: center;
     display: block;
     padding: 11px 20px;
-    border: 1px solid #bbb;
-    color: #777;
     text-decoration: none;
 }
 
@@ -320,19 +294,6 @@ input[type=submit] {
 .outdent {
     margin-left: auto;
     margin-right: auto;
-}
-
-.outline {
-    border: 1px solid #999;
-}
-
-.outline-pad {
-    padding: 5px;
-    border: 1px solid #999;
-}
-
-.sidebar .outline-pad {
-    padding: 3px;
 }
 
 .center {
