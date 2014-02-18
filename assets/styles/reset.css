@@ -24,6 +24,7 @@ mark {
     background-color: transparent;
 }
 
+/* Box-sizing: Border-box FTW - http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
 *, *:after, *:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
