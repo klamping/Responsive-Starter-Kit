@@ -91,7 +91,8 @@ input[type=checkbox] {
     color: #aaa; /* Internet Explorer 10+ */
 }
 
-/* IE 10 Snap Mode Viewport Setting
+/*
+   IE 10 Snap Mode Viewport Setting
    http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/
 */
 
@@ -206,10 +207,6 @@ tr:nth-child(even) td {
     margin: 0.5em 0;
 }
 
-.modal-dialog {
-    display: none; /* hide by default */
-}
-
 
 /* Colored Buttons
 -------------------------------- */
@@ -274,7 +271,7 @@ input[type=submit] {
     text-decoration: none;
 }
 
-@media all and (min-width: 43.75em) {
+@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
     .btn-cancel {
         text-align: left;
         display: inline-block;
@@ -354,7 +351,8 @@ input[type=submit] {
     clear: both;
 }
 
-/* micro clearfix
+/*
+   Micro Clearfix
    http://nicolasgallagher.com/micro-clearfix-hack/
 */
 
@@ -365,7 +363,6 @@ input[type=submit] {
 }
 
 /* accessibility, print, image replacement */
-
 .visually-hidden, .screen-reader-text, .wai, .ir {
     position: absolute;
     left: -999em;
@@ -381,7 +378,7 @@ input[type=submit] {
 /* Simple Grids
 -------------------------------- */
 
-@media all and (min-width: 43.75em) {
+@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
     
     .grid .one-half, .grid .one-third, .grid .two-thirds, .grid .one-fourth, .grid .three-fourths,
     .grid .one-fifth, .grid .two-fifths, .grid .three-fifths, .grid .four-fifths,
