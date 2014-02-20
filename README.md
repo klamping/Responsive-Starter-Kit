@@ -8,7 +8,7 @@ There's a basic *theme.css* file in the *assets/css* directory. Feel free to edi
 
 ## General ##
 
-* "Responsive" layout with a fluid grid/layout, not "adaptive" with multiple fixed-width breakpoints
+* "Responsive" layout with a fluid/elastic grid, not "adaptive" with multiple fixed-width breakpoints
 * Prefer "readability over compression" for HTML and CSS coding style; can minify using CSS pre-processor (or server) - http://isobar-idev.github.com/code-standards/
 
 ## HTML ##
