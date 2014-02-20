@@ -30,7 +30,7 @@ There's a basic *theme.css* file in the *assets/style* directory. Feel free to e
 
 ## IE 8 ##
 
-* Includes Respond.js and HTML5shim for media query support
+* Includes *Respond.js* and *HTML5shim/v* for media query support
 
 ## Accessibility ##
 
