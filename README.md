@@ -8,8 +8,8 @@ There's a basic *theme.css* file in the *assets/css* directory. Feel free to edi
 
 ## General ##
 
-* *Responsive* layout with a fluid/elastic grid, not *adaptive* with multiple fixed-width breakpoints
-* Prefererence for *readability over compression* for HTML and CSS coding style; can minify using CSS pre-processor (or server) - http://isobar-idev.github.com/code-standards/
+* **Responsive** layout with a fluid/elastic grid, not *adaptive* with multiple fixed-width breakpoints
+* Prefererence for **readability over compression** for HTML and CSS coding style; can minify using CSS pre-processor (or server) - http://isobar-idev.github.com/code-standards/
 
 ## HTML ##
 
@@ -21,7 +21,7 @@ There's a basic *theme.css* file in the *assets/css* directory. Feel free to edi
 
 ## CSS ##
 
-* Mobile first technique emphasizing "progressive enhancement"
+* Mobile first technique emphasizing **progressive enhancement**
 * Proportional media queries - http://blog.cloudfour.com/the-emshave-it-proportional-media-queries-ftw/
 * Don't Overthink It Grids - http://css-tricks.com/dont-overthink-itgrids/
 * Column widths use %, fixed-width gutters use px, fonts use em, images use "max-width: 100%" and "height: auto"
