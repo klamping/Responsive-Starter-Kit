@@ -13,8 +13,8 @@ There's a basic *theme.css* file in the *assets/css* directory. Feel free to edi
 
 ## HTML ##
 
-* Modified version of "HTML5 Reset v2" by Tim Murtaugh - http://html5reset.org/
-* Uses the new HTML5 section tags: header, footer, nav, section, article, aside
+* Modified version of *HTML5 Reset v2* by Tim Murtaugh - http://html5reset.org/
+* Uses the new HTML5 section tags: HEADER, FOOTER, NAV, SECTION, ARTICLE, ASIDE
 * Doesn't use the new HTML5 outline algorithm
 * Doesn't use XHTML-style trailing "space and slash" on self-closing elements such as INPUT, META, IMG, BR, HR, etc.
 * Meta viewport tag set to "width=device-width, initial-scale=1.0" (causes a documented iPad orientation change zoom bug)
