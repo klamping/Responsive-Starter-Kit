@@ -109,7 +109,7 @@ textarea:focus {
 
 /* Styles for Tablets and Larger */
 
-@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
+@media all and (min-width: 43.75em) {
     
     fieldset {
         display: inline-block;

@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
+@media all and (min-width: 43.75em) {
     .site-header .site-branding {
         float: left;
     }
@@ -57,7 +57,7 @@
     margin: 10px 0;
 }
 
-@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
+@media all and (min-width: 43.75em) {
     .site-header .nav-primary {
         float: right;
     }
@@ -308,7 +308,7 @@ main blockquote p {
     color: #222;
 }
 
-@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
+@media all and (min-width: 43.75em) {
     
     .site-footer .site-copyright {
         float: left;

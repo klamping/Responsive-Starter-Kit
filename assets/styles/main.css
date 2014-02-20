@@ -245,7 +245,7 @@ input[type=submit] {
     text-decoration: none;
 }
 
-@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
+@media all and (min-width: 43.75em) {
     .btn-cancel {
         text-align: left;
         display: inline-block;
@@ -339,7 +339,7 @@ input[type=submit] {
 /* Simple Grids
 -------------------------------- */
 
-@media all and (min-width: 43.75em) { /* 16px base font size / 700px */
+@media all and (min-width: 43.75em) {
     
     .grid .one-half, .grid .one-third, .grid .two-thirds, .grid .one-fourth, .grid .three-fourths,
     .grid .one-fifth, .grid .two-fifths, .grid .three-fifths, .grid .four-fifths,
