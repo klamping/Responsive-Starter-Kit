@@ -50,7 +50,7 @@ Be sure to check out the [video training course](http://www.mpgilbert.com/respon
 * Alt text for images, unless no content conveyed - http://a11yproject.com/posts/alt-text/
 * Doesn't include "maximum-scale=1.0" in META VIEWPORT tag - http://a11yproject.com/posts/never-use-maximum-scale/
 
-## Recommended Add-ons ##
+## Add-ons ##
 
 The following is a list of add-ons (plugins) that can be added easily for additional functionality.
 
