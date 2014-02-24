@@ -10,6 +10,10 @@ There's a basic *theme.css* file in the *assets/style* directory. Feel free to e
 
 A [browsable demo](https://rawgithub.com/mpgilbertusa/Responsive-Starter-Kit/master/index.html) of all layout pages is available.
 
+## Tutorials ##
+
+Be sure to check out the [Responsive Web Design: A Gentle Introduction](http://www.mpgilbert.com/responsive-web-design-a-gentle-introduction) video training course that accompanies this starter kit.
+
 ## General ##
 
 * **Responsive** layout with a fluid/elastic grid, not *adaptive* with multiple fixed-width breakpoints
