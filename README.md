@@ -6,6 +6,10 @@ Plugins and polyfills can be easily added to include support for features such a
 
 There's a basic *theme.css* file in the *assets/style* directory. Feel free to edit, or even delete, this file as needed. It's been included for demonstration purposes only. It's not intended to influence visual and/or user experience design preferences.
 
+## Demo ##
+
+A [browsable demo](https://rawgithub.com/mpgilbertusa/Responsive-Starter-Kit/master/index.html) of all layout pages is available.
+
 ## General ##
 
 * **Responsive** layout with a fluid/elastic grid, not *adaptive* with multiple fixed-width breakpoints
