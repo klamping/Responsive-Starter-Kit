@@ -14,12 +14,14 @@ A [browsable demo](https://rawgithub.com/mpgilbertusa/Responsive-Starter-Kit/mas
 
 Be sure to check out the [video training course](http://www.mpgilbert.com/responsive-web-design-a-gentle-introduction) that accompanies this starter kit.
 
-## General ##
+## Features ##
+
+### General ###
 
 * **Responsive** layout with a fluid/elastic grid, not *adaptive* with multiple fixed-width breakpoints
 * Prefererence for **readability over compression** for HTML and CSS coding style; can minify using CSS pre-processor (or server) - http://isobar-idev.github.com/code-standards/
 
-## HTML ##
+### HTML ###
 
 * Modified version of *HTML5 Reset v2* by Tim Murtaugh - http://html5reset.org/
 * Uses the new HTML5 section tags: HEADER, FOOTER, NAV, SECTION, ARTICLE, ASIDE
@@ -27,7 +29,7 @@ Be sure to check out the [video training course](http://www.mpgilbert.com/respon
 * Doesn't use XHTML-style trailing "space and slash" on self-closing elements such as INPUT, META, IMG, BR, HR, etc.
 * Meta viewport tag set to "width=device-width, initial-scale=1.0" (causes a documented iPad orientation change zoom bug)
 
-## CSS ##
+### CSS ###
 
 * Mobile first technique emphasizing **progressive enhancement**
 * Proportional media queries - http://blog.cloudfour.com/the-emshave-it-proportional-media-queries-ftw/
@@ -36,11 +38,11 @@ Be sure to check out the [video training course](http://www.mpgilbert.com/respon
 * *Box-sizing: Border-box* for everything - http://paulirish.com/2012/box-sizing-border-box-ftw/
 * Uses unitless line-heights for typography - http://meyerweb.com/eric/thoughts/2006/02/08/unitless-line-heights/
 
-## IE 8 ##
+### IE 8 ###
 
 * Includes *Respond.js* and *HTML5 Shim/Shiv* for media query support
 
-## Accessibility ##
+### Accessibility ###
 
 * Semantic HTML throughout
 * WAI-ARIA Landmark Roles: banner, navigation, main, complementary, contentinfo - http://a11yproject.com/posts/aria-landmark-roles/
@@ -48,7 +50,7 @@ Be sure to check out the [video training course](http://www.mpgilbert.com/respon
 * Alt text for images, unless no content conveyed - http://a11yproject.com/posts/alt-text/
 * Doesn't include "maximum-scale=1.0" in META VIEWPORT tag - http://a11yproject.com/posts/never-use-maximum-scale/
 
-## Recommended Add-ons ##
+### Recommended Add-ons ###
 
 The following is a list of add-ons (plugins) that can be added easily for additional functionality.
 
