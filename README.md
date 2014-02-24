@@ -12,7 +12,7 @@ A [browsable demo](https://rawgithub.com/mpgilbertusa/Responsive-Starter-Kit/mas
 
 ## Tutorials ##
 
-Be sure to check out the [Responsive Web Design: A Gentle Introduction](http://www.mpgilbert.com/responsive-web-design-a-gentle-introduction) video training course that accompanies this starter kit.
+Be sure to check out the [video training course](http://www.mpgilbert.com/responsive-web-design-a-gentle-introduction) that accompanies this starter kit.
 
 ## General ##
 
