@@ -6,6 +6,10 @@ Plugins and polyfills can be easily added to include support for features such a
 
 There's a basic *theme.css* file in the *assets/style* directory. Feel free to edit, or even delete, this file as needed. It's been included for demonstration purposes only. It's not intended to influence visual and/or user experience design preferences.
 
+## Demo ##
+
+Take a look at the <a href="http://mpgilbertusa.github.io/Responsive-Starter-Kit/">sample layout pages</a> to see how everything works.
+
 ## Tutorials ##
 
 Be sure to check out the [video training course](http://www.mpgilbert.com/responsive-web-design-a-gentle-introduction) that accompanies this starter kit.
