@@ -57,7 +57,7 @@ Be sure to check out the [video training course](http://www.mpgilbert.com/respon
 The following is a list of add-ons (plugins) that can be added easily for additional functionality.
 
 * Zurb Responsive Tables (for data tables) - https://github.com/zurb/responsive-tables
-* Riloadr (images, including Retina and scroll position support) - https://github.com/tubalmartin/riloadr
+* picturefill (for responsive images, including Retina support) - https://github.com/scottjehl/picturefill
 * FitVids (videos) - https://github.com/davatron5000/FitVids.js
 * fancyBox (modal dialogs) - https://github.com/fancyapps/fancyBox
 * WooThemes FlexSlider (content carousel) - https://github.com/woothemes/FlexSlider
