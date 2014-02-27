@@ -6,9 +6,11 @@ Plugins and polyfills can be easily added to include support for features such a
 
 There's a basic *theme.css* file in the *assets/style* directory. Feel free to edit, or even delete, this file as needed. It's been included for demonstration purposes only. It's not intended to influence visual and/or user experience design preferences.
 
+If you'd like to take a look at something a bit more advanced, you might enjoy the [Responsive Starter Kit Pro](https://github.com/mpgilbertusa/Responsive-Starter-Kit-Pro) repository. It includes the LESS pre-processor as well as a handful of add-ons for typical responsiveness and can be used on a variety of real-world projects.
+
 ## Demo ##
 
-Take a look at the <a href="http://mpgilbertusa.github.io/Responsive-Starter-Kit/">sample layout pages</a> to see how everything works.
+Take a look at the [sample layout pages](http://mpgilbertusa.github.io/Responsive-Starter-Kit/) to see how everything works.
 
 ## Tutorials ##
 
