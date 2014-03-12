@@ -1,4 +1,4 @@
-# Responsive Starter Kit #
+# Responsive Starter Kit Basic #
 
 A stripped down, but highly functional, toolkit to help jump-start a typical responsive web design project. Sample HTML files included to demonstrate possible layouts: style guide/sampler, left sidebar, right sidebar, full width, sample form, and audio/video transcript.
 
