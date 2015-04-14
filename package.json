@@ -19,10 +19,11 @@
   "homepage": "https://github.com/klamping/UIRegression",
   "devDependencies": {
     "connect": "~3.2.0",
+    "gemini": "^0.10.0",
     "http-auth": "~2.2.0",
     "open": "0.0.5",
     "passport": "^0.2.1",
-    "serve-static": "~1.6.2",
-    "phantomcss": "~0.7.2"
+    "phantomcss": "~0.7.2",
+    "serve-static": "~1.6.2"
   }
 }
